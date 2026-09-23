@@ -1,0 +1,20 @@
+# Dependencias del proyecto
+#
+# Este proyecto utiliza únicamente la biblioteca estándar de Python 3.11+.
+# No se requieren dependencias externas para ejecutar la aplicación.
+#
+# Módulos estándar utilizados:
+#   - dataclasses: Modelo de datos (Task, AlgorithmResult)
+#   - bisect:      Búsqueda binaria (Enfoque C)
+#   - random:      Generación de tareas aleatorias
+#   - time:        Benchmarking con perf_counter()
+#   - typing:      Type hints
+#   - unittest:    Tests automatizados
+#   - subprocess:  Ejecución de tests desde el menú
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DEPENDENCIAS DE DESARROLLO (opcionales)
+# ─────────────────────────────────────────────────────────────────────────────
+# pytest facilita la ejecución de tests con mejor output que unittest.
+# Si no está instalado, el proyecto usa unittest (incluido en Python).
+pytest==8.3.5
