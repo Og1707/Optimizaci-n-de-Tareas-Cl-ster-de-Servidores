@@ -89,9 +89,7 @@ task_optimizer/
 ├── docs/
 │   ├── arquitectura.md                     # Decisiones de arquitectura
 │   ├── algoritmos.md                       # Descripción de algoritmos
-│   ├── complejidad.md                      # Análisis de complejidad
-│   ├── sustentacion.md                     # Guía para la sustentación
-│   └── benchmarking.md                     # Metodología de benchmarking
+│   └── complejidad.md                      # Análisis de complejidad
 │
 ├── main.py                                 # Punto de entrada (menú de consola)
 ├── requirements.txt                        # Dependencias
